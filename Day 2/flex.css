@@ -1,0 +1,27 @@
+* {
+    margin-top: 10px;
+}
+
+header {
+    background-color: chocolate;
+    color: white;
+}
+
+.ol {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.li {
+    text-decoration: none;
+    color: white;
+}
+
+.li:hover {
+    background-color: violet;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
