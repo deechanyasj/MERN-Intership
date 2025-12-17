@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!--p id="msg">Hello</p>
+  <p class="item">One</p>
+  <p class="item">Two</p-->
+<!--div id="msg"></div-->
+<!--p id="msg"></p>
+<button id="submit"> SHow Message</button-->
+  <p id="name"></p>
+<input type="text" id="inp" placeholder="Enter your name"/>
+<button id="submit"> Submit</button>
+  <script>
+    document.getElementById("submit").addEventListener("click",()=>{
+        var text=document.getElementById("inp").value;
+        document.getElementById("name").innerText=text;
+    });
+    //document.getElementById('msg').innerHTML="<p>Hello</p>"
+    //document.getElementById('msg').innerText="Hello"
+   // document.getElementById('msg').style.color = "Red";
+
+    // Select all with class "item"
+   // var items = document.querySelectorAll('.item');
+   // items[0].style.color = "Green";   // First item
+    
+
+   // document.querySelector('#msg').style.backgroundColor = "blue";
+   // document.querySelector('p').style.backgroundColor = "blue"; // first <p>
+  </script>
+</body>
+</html>
